@@ -103,18 +103,18 @@ export function Header() {
       >
         Skip to content
       </a>
-      <div className="container-wide flex min-h-[76px] items-center justify-between gap-6">
+      <div className="container-wide flex min-h-[76px] items-center justify-between gap-3 sm:gap-6">
         <a
           href="#home"
-          className="flex items-center gap-3 no-underline"
+          className="flex min-w-0 items-center gap-3 no-underline"
           aria-label="Dr. Maya Reynolds, home"
         >
           <span className="flex h-10 w-10 items-center justify-center rounded-full border border-sage-deep/40 font-serif text-lg text-sage-deep">
             M
           </span>
-          <span className="leading-tight">
+          <span className="min-w-0 leading-tight">
             <span className="block font-serif text-[1.05rem]">Maya Reynolds</span>
-            <span className="text-[.64rem] uppercase tracking-[.15em] text-muted">
+            <span className="hidden text-[.64rem] uppercase tracking-[.15em] text-muted min-[480px]:block">
               PsyD · Clinical Psychologist
             </span>
           </span>
@@ -133,7 +133,7 @@ export function Header() {
 
         <a
           href="#contact"
-          className="group rounded-full border border-sage-deep px-4 py-2.5 text-xs font-semibold text-sage-deep transition hover:bg-sage-deep hover:text-white sm:px-5 sm:text-sm"
+          className="group shrink-0 rounded-full border border-sage-deep px-3 py-2.5 text-xs font-semibold text-sage-deep transition hover:bg-sage-deep hover:text-white sm:px-5 sm:text-sm"
         >
           Get in touch <Arrow />
         </a>
@@ -156,11 +156,11 @@ export function Hero() {
   return (
     <section id="home" className="overflow-hidden bg-cream">
       <div className="container-wide grid items-center gap-12 py-14 md:grid-cols-[1.02fr_.98fr] md:py-24 lg:gap-20">
-        <div className="fade-in order-2 md:order-1">
+        <div className="fade-in order-2 min-w-0 md:order-1">
           <p className="eyebrow mb-6">
             Therapy for adults · Santa Monica & California
           </p>
-          <h1 className="section-title max-w-[650px] text-5xl sm:text-6xl lg:text-[4.45rem]">
+          <h1 className="section-title max-w-[650px] break-words text-[2.75rem] sm:text-6xl lg:text-[4.45rem]">
             A little more room to <em className="text-sage-deep">breathe</em>.
           </h1>
           <p className="mt-7 max-w-xl text-lg leading-8 text-muted">
