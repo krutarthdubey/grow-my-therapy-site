@@ -59,6 +59,10 @@ a {
   margin-inline: auto;
 }
 
+.container-wide > * {
+  min-width: 0;
+}
+
 .eyebrow {
   color: var(--sage-deep);
   font-size: 0.72rem;

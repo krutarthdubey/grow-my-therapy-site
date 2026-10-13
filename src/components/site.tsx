@@ -158,12 +158,12 @@ export function Header() {
 export function Hero() {
   return (
     <section id="home" className="overflow-hidden bg-cream">
-      <div className="container-wide grid items-center gap-12 py-14 md:grid-cols-[1.02fr_.98fr] md:py-24 lg:gap-20">
+      <div className="container-wide grid grid-cols-1 items-center gap-12 py-14 md:grid-cols-[1.02fr_.98fr] md:py-24 lg:gap-20">
         <div className="fade-in order-2 min-w-0 md:order-1">
           <p className="eyebrow mb-6">
             Therapy for adults · Santa Monica & California
           </p>
-          <h1 className="section-title max-w-[650px] break-words text-[2.75rem] sm:text-6xl lg:text-[4.45rem]">
+          <h1 className="section-title max-w-[650px] break-words text-[2.5rem] sm:text-6xl lg:text-[4.45rem]">
             A little more room to <em className="text-sage-deep">breathe</em>.
           </h1>
           <p className="mt-7 max-w-xl text-lg leading-8 text-muted">
@@ -220,7 +220,7 @@ export function Hero() {
 export function Introduction() {
   return (
     <section id="about" className="bg-paper py-20 md:py-28">
-      <div className="container-wide grid gap-10 md:grid-cols-[.72fr_1.28fr] md:gap-20">
+      <div className="container-wide grid grid-cols-1 gap-10 md:grid-cols-[.72fr_1.28fr] md:gap-20">
         <div>
           <p className="eyebrow">A place to start</p>
           <h2 className="section-title mt-5 text-4xl md:text-5xl">
@@ -328,7 +328,7 @@ export function Expertise() {
 export function Approach() {
   return (
     <section className="overflow-hidden bg-ink py-20 text-paper md:py-28" id="approach">
-      <div className="container-wide grid items-center gap-12 md:grid-cols-[.9fr_1.1fr] md:gap-20">
+      <div className="container-wide grid grid-cols-1 items-center gap-12 md:grid-cols-[.9fr_1.1fr] md:gap-20">
         <div className="relative mx-auto w-full max-w-[520px]">
           <div className="absolute -left-8 -top-8 h-32 w-32 rounded-full bg-terracotta/30" />
           <Image
@@ -398,7 +398,7 @@ export function FeaturedSpecialties() {
           {specialties.map((specialty) => (
             <article
               key={specialty.number}
-              className="grid gap-3 py-7 md:grid-cols-[.45fr_1fr] md:gap-12 md:py-9"
+            className="grid grid-cols-1 gap-3 py-7 md:grid-cols-[.45fr_1fr] md:gap-12 md:py-9"
             >
               <h3 className="font-serif text-2xl">{specialty.title}</h3>
               <p className="max-w-3xl leading-7 text-muted">
@@ -416,7 +416,7 @@ export function Office() {
   return (
     <section id="office" className="bg-paper py-20 md:py-28">
       <div className="container-wide">
-        <div className="mb-12 grid items-end gap-6 md:grid-cols-[1fr_.7fr]">
+        <div className="mb-12 grid grid-cols-1 items-end gap-6 md:grid-cols-[1fr_.7fr]">
           <div>
             <p className="eyebrow">Our office</p>
             <h2 className="section-title mt-4 text-4xl md:text-5xl">
@@ -466,7 +466,7 @@ export function Office() {
 export function FAQs() {
   return (
     <section id="faqs" className="bg-sage/45 py-20 md:py-24">
-      <div className="container-wide grid gap-10 md:grid-cols-[.65fr_1.35fr] md:gap-20">
+      <div className="container-wide grid grid-cols-1 gap-10 md:grid-cols-[.65fr_1.35fr] md:gap-20">
         <div>
           <p className="eyebrow">A few questions</p>
           <h2 className="section-title mt-4 text-4xl md:text-5xl">
@@ -500,7 +500,7 @@ export function FAQs() {
 export function Contact() {
   return (
     <section id="contact" className="bg-[#e8e2d6] py-16 md:py-20">
-      <div className="container-wide grid gap-9 md:grid-cols-[1fr_auto] md:items-center">
+      <div className="container-wide grid grid-cols-1 gap-9 md:grid-cols-[1fr_auto] md:items-center">
         <div>
           <p className="eyebrow">In person & online</p>
           <h2 className="section-title mt-3 max-w-3xl text-4xl md:text-5xl">
