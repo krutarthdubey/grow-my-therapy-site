@@ -143,7 +143,7 @@ export function Header() {
       </div>
       <nav
         aria-label="Mobile navigation"
-        className="container-wide flex gap-5 overflow-x-auto pb-3 text-xs text-muted md:hidden"
+        className="container-wide flex flex-wrap items-center gap-x-5 gap-y-2 pb-3 text-xs text-muted md:hidden"
       >
         <a href="#about">About</a>
         <a href="#specialties">Specialties</a>
@@ -199,6 +199,7 @@ export function Hero() {
               alt="Portrait of Dr. Maya Reynolds"
               width={1024}
               height={1536}
+              sizes="(max-width: 767px) calc(100vw - 32px), (max-width: 1200px) 45vw, 540px"
               priority
               className="h-[440px] w-full object-cover object-top sm:h-[540px]"
             />
@@ -336,6 +337,7 @@ export function Approach() {
             alt="Comfortable seating and natural light in Dr. Reynolds’ therapy office"
             width={1500}
             height={1125}
+            sizes="(max-width: 767px) calc(100vw - 32px), 45vw"
             className="relative h-[330px] w-full rounded-[45%_45%_12px_12px] object-cover md:h-[440px]"
           />
         </div>
@@ -436,6 +438,7 @@ export function Office() {
               alt="Office seating area beside tall windows"
               width={1500}
               height={1125}
+              sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 1023px) 50vw, 45vw"
               className="h-[280px] w-full object-cover transition duration-700 hover:scale-[1.02] md:h-[390px]"
             />
             <figcaption className="sr-only">
@@ -448,6 +451,7 @@ export function Office() {
               alt="Second view of the bright therapy office with sofa, bookshelves, and plants"
               width={1500}
               height={1125}
+              sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 1023px) 50vw, 45vw"
               className="h-[280px] w-full object-cover transition duration-700 hover:scale-[1.02] md:h-[390px]"
             />
             <figcaption className="sr-only">
