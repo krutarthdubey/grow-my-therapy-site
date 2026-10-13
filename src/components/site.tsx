@@ -195,7 +195,7 @@ export function Hero() {
           <div className="absolute -bottom-5 -left-5 z-10 h-36 w-36 rounded-full border border-sage-deep/35 md:-bottom-7 md:-left-7 md:h-48 md:w-48" />
           <div className="relative z-10 overflow-hidden rounded-t-[48%] rounded-b-[8px] bg-sage">
             <Image
-              src="/images/maya-reynolds.png"
+              src="/images/maya-reynolds.webp"
               alt="Portrait of Dr. Maya Reynolds"
               width={1024}
               height={1536}
