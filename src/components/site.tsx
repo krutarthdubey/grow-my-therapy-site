@@ -135,7 +135,10 @@ export function Header() {
           href="#contact"
           className="group shrink-0 rounded-full border border-sage-deep px-3 py-2.5 text-xs font-semibold text-sage-deep transition hover:bg-sage-deep hover:text-white sm:px-5 sm:text-sm"
         >
-          Get in touch <Arrow />
+          <span className="sm:hidden">Contact</span>
+          <span className="hidden sm:inline">
+            Get in touch <Arrow />
+          </span>
         </a>
       </div>
       <nav
